@@ -3,22 +3,34 @@
 <head> 
     <title>Getting to Know You: Brenden Kelley</title>
     <style>
-    body {background-color: wheat; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;} 
-    h1 {text-align: center; background-color: turquoise;}
+    body {background-color: white; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;} 
+    h1 {text-align: center; background-color: rgb(128, 0, 0);}
     h2 {text-align: center;}
     h3 {text-align: center;}
-    h6 {text-align: center;}
+    h4 {text-align: center;}
     p {text-indent: 50px; margin-left: 200px; margin-right: 200px;}
     .squarelist {list-style-type: square;}
-    .picture {display: block; margin-left: auto; margin-right: auto; height: 10%; width: 10%;}
+    .column {float: left; width: 20%; padding: 5px; margin-right: auto; margin-left: 230px;}
+    .row::after {content: ""; clear: both; display: table;}
     .second {margin-top: 20px;}
     </style>
 </head>
 <body>
 
-    <h1> Getting to Know You: Brenden Kelley </h1>
-    <h6><a href="mailto:brendenpkelley@lewisu.edu"> brendenpkelley@lewisu.edu</a></h6>
-    <img src="Brenden-Kelley.png" alt="My Pic Should be here" class="picture">
+    <h1 style="color: white;"> Getting to Know You: Brenden Kelley </h1>
+    <h4><a href="mailto:brendenpkelley@lewisu.edu"> brendenpkelley@lewisu.edu</a></h4>
+    <div class="row">
+        <div class="column">
+            <img src="d20.png" alt="a d20" style="width: 30%" style="height: 10%"> 
+        </div>
+        <div class="column">
+            <img src="Brenden-Kelley.png" alt="My Pic Should be here" style="width: 50%" style="height: 10%">
+        </div>
+        <div class="column">
+            <img src="office.png" alt="Math Supplies" style="width: 50%" style="height: 10%">
+        </div>
+    </div>
+    
     <h2 class = second> Introduction </h2>
     <p> Hello! I am Brenden Kelley, I am 22 years old and currently in my Junior year of a physics and secondary education degree. 
         My family comes from different walks of life but my parents met while they were in boot camp. 
